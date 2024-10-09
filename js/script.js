@@ -79,4 +79,9 @@ $(document).ready(function(){
     $(".bottom_button").mouseleave(function(){
         $("body").css( "background-color", "#eee"); 
     });
+
+    $('li #stream1_btn').on(function() {
+        $('.stream1').fadeIn();
+        $('.stream1').fadeIn(1000);
+    });
 });
